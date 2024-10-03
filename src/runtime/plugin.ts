@@ -4,7 +4,7 @@ import { defineNuxtPlugin } from '#app'
 import { useRuntimeConfig } from '#imports'
 
 export default defineNuxtPlugin(async ({ vueApp }) => {
-  const { public: { dompurify: { profiles } } } = useRuntimeConfig()
+  const { public: { dompurify } } = useRuntimeConfig()
 
   let purify: DOMPurify.DOMPurifyI
 
@@ -17,8 +17,8 @@ export default defineNuxtPlugin(async ({ vueApp }) => {
   }
 
   function sanitizeHtml(binding: DirectiveBinding) {
-    if (binding.arg && profiles[binding.arg]) {
-      return purify.sanitize(binding.value, profiles[binding.arg])
+    if (binding.arg && dompurify?.profiles?.[binding.arg]) {
+      return purify.sanitize(binding.value, dompurify.profiles[binding.arg])
     }
 
     return purify.sanitize(binding.value)
