@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.0.3
+
+
+### 🩹 Fixes
+
+- Add jsdom to dependencies in package.json ([79293a8](https://github.com/radyakaze/nuxt-dompurify/commit/79293a8))
+
+### ❤️ Contributors
+
+- Pringgo Radianto <pringgo.radianto@privyid.tech>
+
 ## v1.0.2
 
 
