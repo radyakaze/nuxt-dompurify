@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.0.2
+
+
+### 🩹 Fixes
+
+- Fix dompurify deps ([57bd487](https://github.com/radyakaze/nuxt-dompurify/commit/57bd487))
+
+### ❤️ Contributors
+
+- Pringgo Radianto <pringgo.radianto@privyid.tech>
+
 ## v1.0.1
 
 

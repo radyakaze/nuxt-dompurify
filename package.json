@@ -1,6 +1,6 @@
 {
   "name": "@radya/nuxt-dompurify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Nuxt 3 module that integrates DOMPurify for sanitizing HTML content and protecting against XSS attacks, with support for multiple profiles.",
   "repository": "radyakaze/nuxt-dompurify",
   "keywords": [
