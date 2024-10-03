@@ -1,6 +1,8 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 import type { ModuleOptions } from './types'
 
+export * from './types'
+
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: '@radya/nuxt-dompurify',
