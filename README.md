@@ -42,7 +42,7 @@ const dirtyHtml = `
 </script>
 ```
 
-This will sanitize the `unsafe_html` variable, ensuring it is safe to render in the DOM.
+This will sanitize the `dirtyHtml` variable, ensuring it is safe to render in the DOM.
 
 ## Profiles
 

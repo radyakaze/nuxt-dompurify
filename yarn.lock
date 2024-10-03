@@ -1848,7 +1848,7 @@ __metadata:
     "@nuxt/module-builder": "npm:^0.8.4"
     "@nuxt/schema": "npm:^3.13.2"
     "@nuxt/test-utils": "npm:^3.14.2"
-    "@types/dompurify": "npm:^3.0.5"
+    "@types/dompurify": "npm:^3"
     "@types/jsdom": "npm:^21.1.7"
     "@types/node": "npm:latest"
     "@vitest/ui": "npm:2.1.2"
@@ -2140,7 +2140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dompurify@npm:^3.0.5":
+"@types/dompurify@npm:^3":
   version: 3.0.5
   resolution: "@types/dompurify@npm:3.0.5"
   dependencies:
