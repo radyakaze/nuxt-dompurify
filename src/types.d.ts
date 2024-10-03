@@ -1,7 +1,7 @@
-import type * as DOMPurify from 'isomorphic-dompurify'
+import type { Config } from 'dompurify'
 
 interface Profiles {
-  [key: string]: DOMPurify.Config
+  [key: string]: Config
 }
 
 export interface ModuleOptions {
