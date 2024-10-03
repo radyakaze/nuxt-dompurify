@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.0.4
+
+
+### 🩹 Fixes
+
+- Handle empty profiles ([91f6276](https://github.com/radyakaze/nuxt-dompurify/commit/91f6276))
+
+### ❤️ Contributors
+
+- Pringgo Radianto <pringgo.radianto@privyid.tech>
+
 ## v1.0.3
 
 
