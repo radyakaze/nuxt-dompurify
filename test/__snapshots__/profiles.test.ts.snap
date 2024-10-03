@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ssr > should purify html 1`] = `
+"
+<div>
+  <h1>Welcome to My Website</h1>
+  <h3>This is H3 heading</h3>
+  <p>This is a <strong>simple</strong> paragraph.</p>
+  <img src="image.jpg">
+  <a href="https://example.com">Click me!</a>
+  
+</div>"
+`;
+
+exports[`ssr > should purify html with heading profile 1`] = `
+"
+
+  <h1>Welcome to My Website</h1>
+  <h3>This is H3 heading</h3>
+  This is a simple paragraph.
+  
+  Click me!
+  
+"
+`;
