@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.0.5
+
+
+### 🩹 Fixes
+
+- Reactive updated value ([dddfe9c](https://github.com/radyakaze/nuxt-dompurify/commit/dddfe9c))
+
+### ❤️ Contributors
+
+- Pringgo Radianto <pringgo.radianto@privyid.tech>
+
 ## v1.0.4
 
 
