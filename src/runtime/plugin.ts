@@ -28,6 +28,9 @@ export default defineNuxtPlugin(async ({ vueApp }) => {
     created(el, binding) {
       el.innerHTML = sanitizeHtml(binding)
     },
+    updated(el, binding) {
+      el.innerHTML = sanitizeHtml(binding)
+    },
     getSSRProps(binding) {
       return {
         innerHTML: sanitizeHtml(binding),
